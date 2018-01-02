@@ -1,9 +1,10 @@
 Package: cleaneRnames
 Version: 0.0.0.9000
-Title: What the Package Does (one line, title case)
-Description: What the package does (one paragraph).
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Title: Adds functionality to base::make.names
+Description: base::make.names outputs a separator per space, and does not allow to use an underscore as separator. This packages will add these options. Single function package, so don't expect much.
+Authors@R: person("António Miguel", "de Jesus Domingues", email = "amjdomingues@gmail.com", role = c("aut", "cre"))
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
+RoxygenNote: 6.0.1

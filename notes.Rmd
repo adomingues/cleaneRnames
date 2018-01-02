@@ -17,7 +17,7 @@ pkg_dir <- file.path(".", "cleaneRnames")
 create_package(pkg_dir)
 ```
 
-I choose the license "MIT" because straitgth and to the point.
+I choose the license "MIT" because straight and to the point.
 
 ```{r}
 use_mit_license("António Domingues")
@@ -30,3 +30,29 @@ Importantly I need some code for it.
 ```{r }
 use_readme_md()
 ```
+
+And set-up of the GH repo:
+
+```{r }
+use_git()
+```
+
+build from the command-line:
+
+```{r }
+library(devtools)
+setwd(pkg_dir)
+build()
+install()
+```
+
+And then we create the documentation.
+
+```{r docs}
+document()
+```
+
+It seems like the package `janitor` already [does](https://garthtarr.github.io/meatR/janitor.html) something similar, but I will continue anyway to practice R package creation.
+
+
+I should consider adding a [test](https://4dpiecharts.com/2011/07/04/testing-for-valid-variable-names/#comments) for syntactically valid names. 
