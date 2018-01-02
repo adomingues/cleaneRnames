@@ -1,6 +1,6 @@
 # cleaneRnames
 
-This and extremely simple, single-function package. The whose goal of `cleaneRnames` is to improve `base::make.names` in two ways:
+This and extremely simple, single-function package. The single goal of `cleaneRnames` is to improve the output of `base::make.names` in two ways:
 
 - replace multiple spaces with a simple separator.
 - add an option to use user defined separator.
