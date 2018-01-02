@@ -43,6 +43,8 @@ It all started with a [tweet](https://twitter.com/keyboardpipette/status/9431108
 
 So I took the challenge by [Ryan Estrellado](https://github.com/restrellado) and wrote a function/package.
 
+The package `janitor` already [does](https://garthtarr.github.io/meatR/janitor.html) something similar, but since my primary goal was to write my first R package, I continued anyway if if there is duplicated functionality. 
+
 ## Credits
 
 Special thanks to [Ryan Estrellado](https://github.com/restrellado) for [suggesting](https://twitter.com/RyanEs/status/943566380879638528) that this could turn into a package and the inclusion of `sep=`. 
