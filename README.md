@@ -11,7 +11,7 @@ The easier way to install is via `devtools`:
 
 ```r
 # install.packages("devtools")
-devtools::install_github("r-lib/usethis")
+devtools::install_github("adomingues/cleaneRnames")
 ```
 
 
