@@ -1,0 +1,32 @@
+---
+title: "My first R package"
+author: "Antonio Domingues"
+date: "January 1, 2018"
+output: html_document
+---
+
+My first R package
+
+Installed usethis to automate some of the task.
+
+```{r include=FALSE}
+devtools::install_github("r-lib/usethis")
+library(usethis)
+setwd("/home/adomingu/sandbox")
+pkg_dir <- file.path(".", "cleaneRnames")
+create_package(pkg_dir)
+```
+
+I choose the license "MIT" because straitgth and to the point.
+
+```{r}
+use_mit_license("António Domingues")
+```
+
+Then in Rstudio I just opened the project created by `usethis`.
+
+Importantly I need some code for it. 
+
+```{r }
+use_readme_md()
+```
