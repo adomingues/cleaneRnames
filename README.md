@@ -5,6 +5,16 @@ This and extremely simple, single-function package. The single goal of `cleaneRn
 - replace multiple spaces with a simple separator.
 - add an option to use user defined separator.
 
+## Install
+
+The easier way to install is via `devtools`:
+
+```r
+# install.packages("devtools")
+devtools::install_github("r-lib/usethis")
+```
+
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
